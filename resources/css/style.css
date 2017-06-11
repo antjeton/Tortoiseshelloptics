@@ -1,0 +1,152 @@
+html,body{
+          font-family:Helvetica,sans-serif;
+          font-size:18px;
+          line-height:1.4rem;
+          background-color: white;
+          color:black;
+}
+.webcontainer{max-width:960px;
+              margin:0 auto;
+}
+header{
+
+
+         background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png ");
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         padding-top:1rem;
+          height:30rem;
+          width:0 auto;
+
+
+}
+
+.navigationlogocontainer{display:flex;
+                          width:100%;
+                         align-items:center;
+                         justify-content:space-between;
+                         background-color:cadetblue;
+
+                         color:white;
+                         height:3.4rem
+
+}
+
+.logo img{
+          height:1.5rem
+
+
+
+}
+.logo{
+       height:1.5rem;
+       display:inline-flex;
+
+}
+.navigation{display:flex;
+}
+
+
+.jerk{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+    margin-top: 1rem;
+
+
+}
+li{display:inline-flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-left:2rem;
+  margin-right: 2rem;
+
+
+}
+nav ul li a{
+   color:white;
+   text-decoration:none;
+
+
+}
+
+
+.bannercontainer{display:flex;
+                  justify-content:flex-end;
+                  margin-top: 10rem;
+
+                }
+
+
+
+.banner{
+          background-color:white;
+          color:black;
+
+      }
+
+.bannercontent{
+               padding:0 2rem 0 2rem;
+               margin:5rem 1.5rem;
+               font-size: 2rem;
+               font-weight:bold;
+}
+.iconsection{display:flex;
+             justify-content:center;
+
+}
+.horizontal{display:inline-flex;
+            }
+.iconsandtext img{width:3.5rem;
+
+}
+
+.iconsandtext{
+              display:flex;
+              flex-direction:column;
+              justify-content:space-between;
+              align-items:center;
+              text-align: center;
+
+              width:5rem;
+              height:8rem;
+              margin:3rem;
+}
+
+.textboxes{display:flex;
+           justify-content:center;
+        }
+.info{
+      width:35%;
+      margin-right:5%;
+      margin-bottom:4rem;
+}
+.info p{padding:1rem;
+}
+
+.title{
+       background-color:cadetblue;
+       padding:0.5rem 1.25rem;
+       font-weight:bold;
+       max-width:10rem;
+}
+
+.footercontainer{display:flex;
+                 align-items:center;
+                 padding:4rem 2rem;
+
+
+
+
+
+}
+
+footer{display:flex;
+       background-color:azure;
+
+  }
+  footer img{ height:1.5rem;
+              margin-left:4rem;
+              margin-right:1rem;
+  }
